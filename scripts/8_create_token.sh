@@ -6,4 +6,6 @@ POLICY=$(cat <<EOF
 }
 EOF
 )
-echo $(curl --silent --request POST --data "${POLICY}" -H "X-Vault-Token: ${1}" http://localhost:8200/v1/auth/token/create) | jq '.'
+echo $(curl --silent --request POST --data "${POLICY}"\
+    -H "X-Vault-Token: ${1}"\
+    http://localhost:8200/v1/auth/token/create) | jq '.'
