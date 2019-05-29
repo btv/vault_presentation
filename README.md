@@ -1,4 +1,5 @@
-##Using Vault to better protect your secrets.
+## Using Vault to better protect your secrets.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/btv/vault_presentation/master?filepath=Vault.ipynb)
 
 This repo contains the slidedeck, images, and scripts used to give my presentation.
